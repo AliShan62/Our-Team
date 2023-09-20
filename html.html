@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techno-web</title>
+    <link rel="stylesheet" href="./Css.css">
+    <!-- for bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- for font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <!-- icons  -->
+    <script src="https://kit.fontawesome.com/e4a5fc2b5e.js" crossorigin="anonymous"></script>
+
+    <!-- animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <header id="Home">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 border-bottom fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-3" href="#">Techno-<span class="text-primary">web</span> </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-center">
+                        <li class="nav-item">
+                            <a class="nav-link active text-primary" aria-current="page" href="#Home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#About">About</a>
+                        </li>
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle" href="#Services" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu bg-primary fs-6 fw-lighter" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#Services">Mobile App Development</a></li>
+                                <li><a class="dropdown-item" href="#Services">Custom Software Development</a></li>
+                                <li><a class="dropdown-item" href="#Services">Web Hosting and Maintenance</a></li>
+                                <li><a class="dropdown-item" href="#Services">Search Engine Optimization (SEO)</a></li>
+                                <li><a class="dropdown-item" href="#Services">Artificial Intelligence</a></li>
+                                <li><a class="dropdown-item" href="#Services">Web Development</a></li>
+                                <li><a class="dropdown-item" href="#Services">Responsive Design</a></li>
+                                <li><a class="dropdown-item" href="#Services"> UI/UX Design </a></li>
+                                <li><a class="dropdown-item" href="#Services"> Cloud computing</a></li>
+                                <li><a class="dropdown-item" href="#Services"> Machine Learning</a></li>
+
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Team">Our Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Contact">Contact</a>
+                        </li>
+
+                    </ul>
+
+
+                </div>
+            </div>
+        </nav>
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/pick2.jpeg" class="d-block " alt="..." width="100%" height="650px" >
+                    <div class="carousel-caption  d-md-block">
+                        <h5 style=" font-weight: bold;">Individually, we are a drop but together </h5>
+                        <h5 style=" font-weight: bold;">we are an ocean of possibilities- Satoro </h5>
+                        
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/pick3.jpeg" class="d-block w-100 " alt="..." width="100%" height="650px" >
+                    <div class="carousel-caption  d-md-block">
+                        <h5 style=" font-weight: bold;">Coming together is a beginning. Keeping together is progress</h5>
+                        <h5 style=" font-weight: bold;">Working together is success.- Henry Ford  </h5>
+                        
+                    </div>
+                </div>
+
+                <div class="carousel-item ">
+                    <img src="./images/pick1.jpeg" class=" d-block  " alt="..."  width="100%" height="650px">
+                    <div class="carousel-caption  d-md-block">
+                        <h5 style="font-weight: bold;">Great things are never done by one person they</h5>
+                        <h5 style="font-weight: bold;">Are done by a team of people." - Steve Jobs</h5>
+                    </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section class="about my-4" id="About">
+        <div class=" container">
+            <div class=" ">
+                <h1 style="text-align: center; " data-aos="fade-up" data-aos-offset="200">About <span
+                        class="text-primary  "> me</span></h1>
+                <hr class="w-25 m-auto mb-4">
+
+                <!-- columns -->
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-12" data-aos="zoom-in" date-aos-offset="200">
+                        <h1>What do you <span class="text-primary">want to know?</span> </h1>
+                        <p class=""> Techno Web's mission is to provide trusted, comprehensive, and updated
+                            information on the latest technology trends, innovations, and breakthroughs.
+
+                            Our goal is to be the go-to resource for tech enthusiasts, offering valuable insights,
+                            practical guides, and engaging content that fuels curiosity and drives innovation.
+                        </p>
+                        <a href="https://www.technowebindia.co.in/"><button type="button"
+                                class="btn btn-light mb-5">More about me</button></a>
+
+
+
+
+                        <!-- accordin -->
+                        <div class="accordion m-5" id="accordionExample" data-aos="zoom-in-left" data-aos-offset="200">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        My Hobbies
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+
+                                        <p>1. Curiousness to learn new things &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                            2. Exploring The Things
+                                        <p>3. Hardworking &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                            &nbsp; 4. Problem Solving</p>
+                                        <p>5. Visiting &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 6. Studing </p>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        My Qualification
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p class="p-2"> BS Information Technology From University of Education College
+                                            Road Township Campus Lahore.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        My Dream
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p class="p-2">
+                                            1. First of all Independency &nbsp; &nbsp; &nbsp; &nbsp; 2. To Change our
+                                            country's Politics
+                                        </p>
+
+                                        <p class="p-2">
+                                            3. To make our Country Best &nbsp; &nbsp; &nbsp; 4. Sacrifice for the honour
+                                            of country
+                                        </p>
+
+                                        <p class="p-2">
+                                            5. To help mankind &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+                                            &nbsp;&nbsp;&nbsp; &nbsp; 6. To help mankind
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-12  m-auto text-center " data-aos="fade-right"
+                        data-aos-offset="200">
+                        <img src="./images/s4.jpg" alt="" class="img-fluid img-thumbnail  ">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Serivices -->
+
+    <section class="Services btn-light py-1 " id="Services">
+        <div class="container">
+
+            <div class="">
+                <h1 style="text-align: center; margin-top: 80px;" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000"> Our <span class="text-primary  ">Services</span></h1>
+                <hr class="w-25 m-auto mb-5">
+
+                <!-- columns -->
+                <!-- first row -->
+                <div class="row " style="margin-bottom: 70px; " data-aos="zoom-in-up" data-aos-offset="200"
+                    data-aos-duration="1000">
+                    <div class="col-sm-12 col-md-4 col-lg-4 col-12 ">
+                        <div class="card">
+                            <div class="card-body">
+
+                                <i class="fa-sharp fa-solid fa-code fa-beat bg-primary p-2 rounded  "></i>
+
+                                <h5 class="card-title" id="Services" >Mobile App Development</h5>
+                                <p class="card-text" style="text-align: justify;">
+
+                                    Mobile App Development industry encompasses various aspects of the app development
+                                    lifecycle, including organization, design, optimization, and maintenance.
+                                </p>
+                                <a href="#" class="btn btn-primary">Book now!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4 col-12  ">
+                        <div class="card bg-primary">
+                            <div class="card-body ">
+                                <i class="fa-brands fa-codepen  fa-beat bg-white p-2 rounded "></i>
+                                <h5 class="card-title text-white" id="Services">Custom Software Development </h5>
+                                <p class="card-text text-white" style="text-align: justify;">
+
+                                    Custom Software Development is the process of designing,
+                                    creating, deploying and maintaining software for a specific
+                                    set of users, functions or organizations.
+
+                                </p>
+                                <a href="#" class="btn bg-white">Book now!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4 col-12 ">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class="fa-solid fa-blog fa-beat bg-primary p-2 rounded "></i>
+                                <h5 class="card-title" id="Services">Web Hosting and Maintenance</h5>
+                                <p class="card-text" style="text-align: justify;">
+                                    Hosting services provide the ability for visitors to come to and see your site,
+                                    Website Maintenance ensures that all of your code is up to date and secure.
+
+                                </p><br>
+                                <a href="#" class="btn btn-primary">Book now!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- second row -->
+
+                <div class="row mt-5" style="margin-bottom: 70px;" data-aos="zoom-in-down" data-aos-offset="200"
+                    data-aos-duration="1500">
+                    <div class="col-sm-12 col-md-4 col-lg-4 col-12 ">
+                        <div class="card">
+                            <div class="card-body">
+
+                                <i class="fa-solid fa-magnifying-glass-location fa-beat p-2 rounded "
+                                    style="color: #ed1212; background-color:blue; "></i>
+
+                                <h5 class="card-title" id="Services"> Search Engine Optimization (SEO)</h5>
+                                <p class="card-text" style="text-align: justify;">
+                                    Search Engine Optimization is the process of improving the quality and quantity of
+                                    website traffic to a website or a web page from search engines. SEO targets unpaid
+                                    traffic rather than direct traffic or paid traffic.
+                                </p>
+                                <a href="#" class="btn btn-primary">Book now!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4 col-12 ">
+                        <div class="card bg-primary">
+                            <div class="card-body">
+
+                                <i class="fa-solid fa-beat p-2 bg-white rounded " style="color: #ff0505;">AI</i>
+                                <h5 class="card-title text-white" id="Services">Artifical Intelligence</h5>
+                                <p class="card-text text-white" style="text-align: justify;">
+                                    Artificial Intelligence as a Service (AIaaS) is the third-party offering of
+                                    artificial intelligence (AI) outsourcing. It enables individuals and companies to
+                                    experiment with AI for various purposes without a large initial investment and with
+                                    lower risk.
+                                </p>
+                                <a href="#" class="btn bg-white">Book now! </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4 col-12 ">
+                        <div class="card">
+                            <div class="card-body">
+                                <i class="fa-solid fa-file-code fa-beat p-2 bg-primary rounded mb-3"
+                                    style="color: #fa0505; "></i>
+                                <h5 class="card-title" id="Services">Web Development </h5>
+                                <p class="card-text" style="text-align: justify;">
+                                    Web Development, also known as website development, refers to the tasks associated
+                                    with creating, building, and maintaining websites and web applications that run
+                                    online on a browser.
+                                </p>
+                                <a href="#" class="btn btn-primary">Book now!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- third row -->
+
+                <div class="row " style="margin-bottom: 20px;" data-aos="zoom-in-left" data-aos-offset="200"
+                    data-aos-duration="2000">
+                    <div class="col-sm-12 col-md-4 col-lg-4 col-12 ">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./images/responsive-design.png " alt="" style="width:40px;" class="fa-beat">
+                                <h5 class="card-title" id="Services"> Responsive Design</h5>
+                                <p class="card-text" style="text-align: justify;">
+                                    Responsive Web Design or Responsive design is an approach to web design that aims to
+                                    make web pages render well on a variety of devices and window or screen sizes from
+                                    minimum to maximum display size to ensure usability and satisfaction.
+                                </p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4 col-12 ">
+                        <div class="card bg-primary">
+                            <div class="card-body">
+                                <img src="./images/UX image.png" alt="" style="width:35px;"
+                                    class="fa-beat mb-1 rounded">
+                                <h5 class="card-title text-white" id="Services">UX/UI Design</h5>
+                                <p class="card-text text-white" style="text-align: justify;">
+                                    Responsive Web Design is the process of designing a mobile-friendly website that
+                                    adapts depending on the visitor's device–desktop, tablet, smartphone.UX design
+                                    usually comes first in the product development process, followed by UI.
+                                </p>
+                                <a href="#" class="btn bg-white">Book now!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4 col-12 mb-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./images/cloud computing.jfif" alt="" style="width: 40px;"
+                                    class="fa-beat bg-primary rounded">
+                                <h5 class="card-title" id="Services">Cloud Computing </h5>
+                                <p class="card-text" style="text-align: justify;">
+                                    Cloud Computing refers to the delivery of on-demand computing resources over the
+                                    internet, including storage, servers, databases, software, and more.There are four
+                                    main types of cloud computing: private clouds, public clouds, hybrid clouds, and
+                                    multiclouds.
+                                </p>
+                                <a href="#" class="btn btn-primary">Book now!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- four row -->
+
+                <div class="row  " style="">
+                    <div class="col-sm-12 col-md-4 col-lg-4 col-12 mb-5" data-aos="zoom-in-right" data-aos-offset="200">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./images/machine.jpg" alt="" style="width: 45px;" class="rounded fa-beat">
+                                <h5 class="card-title" id="Services">Machine Learning </h5>
+                                <p class="card-text" style="text-align: justify;">
+                                    Azure Machine Learning empowers data scientists and developers to build, deploy, and
+                                    manage high-quality models faster and with confidence. This trusted platform is
+                                    designed for responsible AI applications in machine learning.
+
+                                </p>
+                                <a href="#" class="btn btn-primary">Book now!</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+    </section>
+
+
+    <!-- Ourteam -->
+    <section class="Team m-auto text-center" id="Team">
+        <div class="container " >
+            <div class="">
+                <h1 style="text-align: center; margin-top: 80px;" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">Our <span class="text-primary  ">Team</span></h1>
+                <hr class="w-25 m-auto mb-5">
+
+            </div>
+            <div class="row " data-aos="zoom-in" data-aos-duration="1000" >
+                <div class="col-sm-12  col-md-3 col-lg-3 col-12 " style="  margin-bottom: 70px; margin-right: 100px;">
+                    <div class="card text-center">
+                        <div class="card-body">
+
+                            <img src="./images/ALI-removebg-preview.png " alt=""
+                                class="img-fluid img-thumbnail rounded-circle border border-primary p-2 mb-4"
+                                class="fa-beat bg-primary rounded " style="min-width: 50%; max-height: 200px;">
+                            <h2 class="card-title text-center " style="font-family: daci;">Ali Shan</h2>
+                            <h5 class="card-text text-center " style="font-family: daci;">Frontend web developer </h5>
+                            <a href="https://www.linkedin.com/in/ali-shan-0319a4243/" class="btn btn-primary ">Read
+                                more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12  col-md-3 col-lg-3 col-12 " style="margin-right: 100px; ">
+                    <div class="card text-center">
+                        <div class="card-body">
+
+                            <img src="./images/Shoaib Kaleem .png" alt=""
+                                class="img-fluid img-thumbnail rounded-circle border border-primary p-2 mb-4"
+                                class="fa-beat bg-primary rounded " style="min-width: 50%; max-height: 200px;">
+                            <h2 class="card-title text-center " style="font-family: daci;">Muhammad Shoaib</h2>
+                            <h5 class="card-text text-center " style="font-family: daci;">Laravel & php developer </h5>
+                            <a href="https://www.linkedin.com/in/muhammad-shoaib-kalim/" class="btn btn-primary ">Read
+                                more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12  col-md-3 col-lg-3 col-12 ">
+                    <div class="card text-center">
+                        <div class="card-body">
+
+                            <img src="./images/tanveer1.png" alt=""
+                                class="img-fluid img-thumbnail rounded-circle border border-primary p-2 mb-4"
+                                class="fa-beat bg-primary rounded " style="min-width: 50%; max-height: 200px;">
+                            <h2 class="card-title text-center " style="font-family: daci;">Tanveer Hussain</h2>
+                            <h5 class="card-text text-center " style="font-family: daci;">Mern stack developer </h5>
+                            <a href="https://www.linkedin.com/in/tanveer-hussain-developer/"
+                                class="btn btn-primary ">Read more</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- second row -->
+
+            <div class="row " style="margin-bottom: 70px;" data-aos="zoom-out" data-aos-duration="1500">
+                <div class="col-sm-12  col-md-3 col-lg-3 col-12 " style="margin-right: 100px;">
+                    <div class="card text-center">
+                        <div class="card-body">
+
+                            <img src="./images/samar1-removebg-preview.png" alt=""
+                                class="img-fluid img-thumbnail rounded-circle border border-primary p-2 mb-4"
+                                class="fa-beat bg-primary rounded " style="min-width: 50%; max-height: 200px;">
+                            <h2 class="card-title text-center " style="font-family: daci;">Samar Hayat </h2>
+                            <h5 class="card-text text-center " style="font-family: daci;">SEO Expert </h5>
+                            <a href="https://www.linkedin.com/in/samarrhayat/" class="btn btn-primary ">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12  col-md-3 col-lg-3 col-12 " style="margin-right: 100px;">
+                    <div class="card text-center">
+                        <div class="card-body">
+
+                            <img src="./images/Ali_Bashir1.png" alt=""
+                                class="img-fluid img-thumbnail rounded-circle border border-primary p-2 mb-4"
+                                class="fa-beat bg-primary rounded " style="min-width: 50%; max-height: 200px;">
+                            <h2 class="card-title text-center " style="font-family: daci;">Ali Bashir </h2>
+                            <h5 class="card-text text-center " style="font-family: daci;">DevOps Engineer </h5>
+                            <a href="https://www.linkedin.com/in/ali-bashir-919a7720a/" class="btn btn-primary ">Read
+                                more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12  col-md-3 col-lg-3 col-12 " >
+                    <div class="card text-center">
+                        <div class="card-body">
+
+                            <img src="./images/Abdullah1.jpeg" alt=""
+                                class="img-fluid img-thumbnail rounded-circle border border-primary p-2 mb-4"
+                                class="fa-beat bg-primary rounded " style="min-width: 50%; max-height: 200px;">
+                            <h3 class="card-title  " style="font-family: daci;">Muhammad Abdullah</h3>
+                            <h5 class="card-text text-center " style="font-family: daci;">WordPress Developer</h5>
+                            <a href="https://www.linkedin.com/in/theabdullahchaudhary/" class="btn btn-primary ">Read
+                                more</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <!-- third -->
+
+            <div class="row" data-aos="zoom-in-right" data-aos-duration="2000">
+                <div class="col-sm-12  col-md-3 col-lg-3 col-12 " style="margin-right: 100px;" >
+                    <div class="card text-center">
+                        <div class="card-body">
+
+                            <img src="./images/umar1.jpeg " alt=""
+                                class="img-fluid img-thumbnail rounded-circle border border-primary p-2 mb-4"
+                                class="fa-beat bg-primary rounded " style="min-width: 50%; max-height: 200px;">
+                            <h2 class="card-title text-center " style="font-family: daci;"> Umar Khan</h2>
+                            <h5 class="card-text text-center " style="font-family: daci;">Social marketing </h5>
+                            <a href="https://www.facebook.com/umarkhanromeo/places_recent" class="btn btn-primary ">Read
+                                more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12  col-md-3 col-lg-3 col-12 " style="margin-right: 100px;" >
+                    <div class="card text-center">
+                        <div class="card-body">
+
+                            <img src="./images/Ali raza2.jpeg" alt=""
+                                class="img-fluid img-thumbnail rounded-circle border border-primary p-2 mb-4"
+                                class="fa-beat bg-primary rounded " style="min-width: 50%; max-height: 200px;">
+                            <h2 class="card-title text-center " style="font-family: daci;">Ali Raza</h2>
+                            <h5 class="card-text text-center " style="font-family: daci;">Amazon Expert </h5>
+                            <a href="https://www.facebook.com/Ali8raza" class="btn btn-primary ">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12  col-md-3 col-lg-3 col-12 ">
+                    <div class="card text-center">
+                        <div class="card-body">
+
+                            <img src="./images/uzair1.jpeg" alt=""
+                                class="img-fluid img-thumbnail rounded-circle border border-primary p-2 mb-4"
+                                class="fa-beat bg-primary rounded " style="min-width: 50%; max-height: 200px;">
+                            <h2 class="card-title text-center " style="font-family: daci;">Uzair Ahmad</h2>
+                            <h5 class="card-text text-center " style="font-family: daci;"> Amazon Web Services</h5>
+                            <a href="https://www.linkedin.com/in/uzair-ahmad-754076243/" class="btn btn-primary ">Read
+                                more</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+    <!-- Contact us -->
+    <section id="Contact">
+        <div class="btn-light p-2" style="margin-top: 100px;">
+
+            <div class="container">
+                <div class="">
+                    <h1 class="text-center pt-5" data-aos="fade-up-right" data-aos-duration="1000"
+                        data-aos-offset="200">Fell free <span class="text-primary"> to conect</span> </h1>
+                    <hr class=" w-25  m-auto ">
+
+                    <div class="row " style="margin-top:120px;  font-family: danci;">
+                        <div class="col-sm-12 col-md-6 col-lg-6 col-12 " data-aos="fade-up-right" data-aos-offset="200">
+                            <form class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="inputEmail4" class="form-label">Email</label>
+                                    <input placeholder="Enter your email address" type="email" class="form-control "
+                                        id="inputEmail4">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="inputPassword4" class="form-label ">Password</label>
+                                    <input type="password" placeholder="Enter your password" class="form-control"
+                                        id="inputPassword4">
+                                </div>
+                                <div class="col-12">
+                                    <label for="inputAddress" class="form-label">Temporary Address</label>
+                                    <input type="text" class="form-control" id="inputAddress"
+                                        placeholder="Enter your valid address">
+                                </div>
+                                <div class="col-12">
+                                    <label for="inputAddress2" class="form-label">Permanent Address </label>
+                                    <input type="text" class="form-control" id="inputAddress2"
+                                        placeholder="Enter your permanent Address">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="inputCity" class="form-label">City</label>
+                                    <input placeholder="Enter your city" type="text" class="form-control"
+                                        id="inputCity">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="inputState" class="form-label">State</label>
+                                    <select id="inputState" class="form-select">
+                                        <option selected>Select</option>
+                                        <option value="Punjab">Punjab</option>
+                                        <option value="Sindh">Sindh</option>
+                                        <option value="Khyber Pakhtunkhwa">Khyber Pakhtunkhwa</option>
+                                        <option value="Balochistan">Balochistan</option>
+                                        <option value="Gilgit-Baltistan">Gilgit-Baltistan</option>
+                                        <option value="Azad Jammu and Kashmir">Azad Jammu and Kashmir</option>
+
+                                    </select>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-check ">
+                                        <br><br>
+                                        <input class="form-check-input " type="checkbox" id="gridCheck">
+                                        <label class="form-check-label" for="gridCheck">
+
+                                            Check me out
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-12 m-auto text-end">
+                                    <br><br>
+                                    <button type="submit" class="btn btn-primary ">Sign in</button>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-6 col-12 text-center  " data-aos="fade-up-left"
+                            data-aos-offset="200">
+                            <br>
+                            <img src="./images/Ali shan passboard size.png" alt=""
+                                class="img-fluid img-thumbnail m-auto   rounded w-75 h-75">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer style="font-size: x-large; font-family: danci; margin-left: 2px; margin-right: 2px; ">
+        <div class="footer-logo"> IT Software House</div>
+        <div class="footer-links">
+            <a href="#Home" style="text-decoration: none;">Home</a>
+            <a href="#About" style="text-decoration: none;">About</a>
+            <a href="#Services" style="text-decoration: none;">Services</a>
+            <a href="#Team" style="text-decoration: none;">Our Team</a>
+            <a href="#Contact" style="text-decoration: none;">Contact</a>
+        </div>
+        <div class="footer-social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100081815865788"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.fiverr.com/ali_shan62?source=gig_page"> <img src="./images/fiver.png" alt=""
+                    style="width: 33px; border: 2px solid white; border-radius: 50%;  "></a>
+            <a href="https://github.com/AliShan62"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/ali-shan-0319a4243/"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <div class="footer-credits" style="font-size: large; ">
+            &copy; 2023 Your Company. All rights reserved. | Designed by <a href="#">Ali Shan</a>
+        </div>
+    </footer>
+
+    <!-- for bootstrap javascript  -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+    <!-- animation js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+
+
+    </script>
+</body>
+
+</html>
